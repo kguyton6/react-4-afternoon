@@ -5,15 +5,16 @@ import Home from './components/Home/Home'
 import ClassList from './components/ClassList/ClassList'
 
 
-export default (
+export default 
     <Switch>
-        <Route component={Home} exact path= '/'/>
-        <Route component={About } path='/about'/>
-        <Route component={ClassList} path='/classlist/:class'/>
+        
+        <Route component={Home} exact path='/'/>
+        <Route component={About } exact path='/about'/>
+        <Route component={ClassList} path='/ClassList/:class.js'/>
         
     </Switch>  
-)
-    
+
+   
     
                 
                 
